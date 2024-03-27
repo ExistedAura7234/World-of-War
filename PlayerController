@@ -2,4 +2,46 @@ using System.Collections
 using System.Collections.Generics
 using UnityEngine
 
-public class PlayerController :
+public class PlayerController : MonoBehaviour
+{
+//velocidad de movimiento
+  public float speed;
+  public float turnSpeed;
+//velocidad de recarga
+  public float reArm;
+//vida
+  public float life;
+//Lista con los prefabs de los modelos de Player
+  public GameObject[] tanques;
+  public GameObject[] aviones;
+  public GameObject[] barcos;
+  
+
+
+
+
+
+
+public void Start()
+  {
+
+
+
+
+
+
+
+
+  }
+public void Update()
+  {
+
+
+
+
+
+
+
+
+  }
+}
