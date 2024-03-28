@@ -15,18 +15,22 @@ public class PlayerController : MonoBehaviour
   public GameObject[] tanques;
   public GameObject[] aviones;
   public GameObject[] barcos;
-  
-
-
-
-
-
+  public Vector3[] zonas;
+//Condiciones
+  public int fight;
+  public int gameOver
+  public int nBullet;
+  public int eBullet;
+  public int rocket;
+  public int players;
+//demas
+  private RigidBody playerRb;
+  public GameObject bullet;
 
 public void Start()
   {
 
-
-
+    playerRb = getComponent<RigidBody>();
 
 
 
@@ -36,7 +40,11 @@ public void Start()
 public void Update()
   {
 
-
+float index = RandomRandomRange(0, zonas);
+  if(players && fight)
+{
+  transform.position.zonas[index];
+}
 
 
 
