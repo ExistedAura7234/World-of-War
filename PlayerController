@@ -40,7 +40,7 @@ public void Start()
 public void Update()
   {
 
-float index = RandomRandomRange(0, zonas);
+float index = RandomRandomRange(0, zonas.lenght);
   if(players && fight)
 {
   transform.position.zonas[index];
